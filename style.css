@@ -83,7 +83,7 @@ a {
   float: left;
   height: 100%;
   width: 50%;
-  min-width: 300px;
+  min-width: 350px;
 }
 
 .right-col {
@@ -91,7 +91,7 @@ a {
   float: right;
   height: 100%;
   width: 50%;
-  min-width: 300px;
+  min-width: 350px;
 }
 
 .top {
@@ -103,7 +103,7 @@ a {
 }
 
 .bottom {
-  margin: 16px;
+  margin: 8px;
   font-size: 24px;
   display: inline-block;
 }
