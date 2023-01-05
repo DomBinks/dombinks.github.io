@@ -1,0 +1,109 @@
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  background-color: lightgrey;
+}
+
+a {
+  color: inherit;
+}
+
+.outer {
+  display: flex;
+  height: 100%;
+  flex-wrap: wrap;
+  padding: 10px;
+}
+
+.left {
+  flex: 1;
+  float: left;
+  width: 50%;
+  background-color: white;
+  color: black;
+  text-align: center;
+  flex-direction: column;
+  min-width: 500px;
+}
+
+#name {
+  font-weight: 100;
+  font-size: 48px;
+  padding: 2px;
+  margin-bottom: 10px;
+}
+
+.picture-div {
+  padding-top: 10%;
+}
+
+#picture {
+  display: block;
+  border-radius: 50%;
+  width: 50%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.heading {
+  font-weight: 100;
+  margin: 16px;
+}
+
+.icon {
+  width: 32px;
+  height: 32px;
+  padding: 10px;
+}
+
+.right {
+  flex: 1;
+  float: right;
+  width: 50%;
+  background-color: mediumpurple;
+  color: white;
+  text-align: center;
+  flex-direction: column;
+  min-width: 500px;
+}
+
+.description {
+  font-weight: 100;
+  margin: 16px;
+  text-align: center;
+  font-size: 24px;
+}
+
+.inner {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.left-col {
+  flex: 1;
+  float: left;
+  height: 100%;
+  width: 50%;
+  min-width: 350px;
+}
+
+.right-col {
+  flex: 1;
+  float: right;
+  height: 100%;
+  width: 50%;
+  min-width: 350px;
+}
+
+.top {
+  font-size: 32px;
+}
+
+.middle {
+  font-size: 24px;
+}
+
+.bottom {
+  margin: 8px;
+  font-size: 24px;
+  display: inline-block;
+}
