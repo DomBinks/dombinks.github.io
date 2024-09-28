@@ -1,63 +1,92 @@
 <!DOCTYPE html>
-<html>
-  <head>
-    <meta charset="UTF-8">
-    <title>Dom Binks</title>
-    <link rel="stylesheet" href="style.css"> 
-  </head>
-  <body>
-    <div class="outer">
-      <div class="left">
-        <div class="picture-div">
-          <img id="picture" src="dombinks.jpeg" alt="Dom Binks">
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Dom Binks</title>
+        <link rel="stylesheet" type="text/css" href="style.css" />
+    </head>
+    <body>
+        <div class="main">
+            <h1>Dom Binks</h1>
+            <h2>
+                Computer Science Undergraduate @ <a href="https://www.nottingham.ac.uk/ugstudy/course/Computer-Science-MSci" target="_blank">University of Nottingham</a><br>
+                Summer 2024 Software Engineering Intern @ Visa
+            </h2>
+            <h2>
+                <a href="https://www.github.com/dombinks" target="_blank">GitHub</a>
+                <a href="https://www.linkedin.com/in/dominicbinks/" target="_blank">LinkedIn</a>
+                <a href="mailto:contact@dombinks.dev" target="_blank">Email</a>
+            </h2>
         </div>
-        <h1 id="name">Dom Binks</h1>
-        <h2 class="heading">University of Nottingham Undergraduate</h2>
-        <a href="https://www.nottingham.ac.uk/ugstudy/course/Computer-Science-MSci" target="_blank">
-          <h2 class="heading">Computer Science MSci</h2>
-        </a>                
-        <h2 class="heading">Nottingham, United Kingdom</h2>
-        <div>
-          <a href="https://www.github.com/dombinks" target="_blank"><img class="icon" src="GitHub.png" alt="GitHub"></a>
-          <a href="https://www.linkedin.com/in/dominic-binks-020690220/" target="_blank"><img class="icon" src="LinkedIn.png" alt="LinkedIn"></a>
-          <a href="mailto:contact@dombinks.dev" target="_blank"><img class="icon" src="Email.png" alt="Email"></a>
+        <div class="projects">
+            <hr>
+            <h2>Projects:</h2> 
+            <div>
+                <h3>
+                    Dynamic Meets Static |
+                    <a href="https://github.com/DomBinks/dynamic-meets-static" target="_blank">GitHub</a> |
+                    <a href="https://github.com/DomBinks/dynamic-meets-static/blob/main/dynamic-meets-static.pdf" target="_blank">Paper</a>
+                </h3>
+                <ul>
+                    <li>Constructed a compiler for a statically typed variant of Lua, enabling the ahead-of-time compilation of Lua programs into executables.</li>
+                    <li>Achieved execution times at least three times faster than the standard Lua interpreter.</li>
+                    <li>Ensured programs written in this Lua variant required minimal modifications to be compatible with existing Lua implementations.</li>
+                </ul>
+            </div>
+            <div>
+                <h3>
+                    Truncate |
+                    <a href="https://github.com/DomBinks/truncate" target="_blank">GitHub</a>
+                </h3>
+                <ul>
+                    <li>Implemented a URL shortener using Angular for the front-end and Go for the back-end.</li>
+                    <li>Integrated third-party authentication via Auth0, enabling users to log in and manage their shortened links</li>
+                    <li>Deployed the application using Docker Compose, with separate containers for the web server and database, allowing them to be managed independently.</li>
+                </ul>
+            </div>
+            <div>
+                <h3>
+                    Languages Map |
+                    <a href="https://github.com/DomBinks/languages-map" target="_blank">GitHub</a> |
+                    <a href="https://dombinks.github.io/languages-map" target="_blank">Site</a>
+                </h3>
+                <ul>
+                    <li>Worked with Angular and Leaflet to develop a website that visualizes where different languages are spoken around the world.</li>
+                    <li>Created a responsive UI using Bootstrap, meaning the website looks good while being easy to use on both desktop and mobile devices.</li>
+                </ul>
+            </div>
+            <div>
+                <h3>
+                    Recipify |
+                    <a href="https://github.com/A1ic3-g/recipify" target="_blank">GitHub</a> |
+                    <a href="https://devpost.com/software/recipify-bt5ge2" target="_blank">Devpost</a>
+                </h3>
+                <ul>
+                    <li>Collaborated with 3 teammates to develop a website that enables you to search for recipes and recommends you a playlist to go with the recipe you choose.</li>
+                    <li>Used Python to access a REST API to search for recipes, and Flask to display this information on a web page, allowing the user to see a list of recipes to choose from.</li>
+                </ul>
+            </div>
+            <div>
+                <h3>
+                    Images from Images |
+                    <a href="https://github.com/dombinks/images-from-images" target="_blank">GitHub</a> |
+                    <a href="https://devpost.com/software/image-from-images" target="_blank">Devpost</a>
+                </h3>
+                <ul>
+                    <li>Utilised OpenCV and other Python libraries to develop parts of an image processing pipeline to resize and colour images, so that they could be stitched together to create a different image.</li>
+                </ul>
+            </div>
         </div>
+        <div class="skills">
+            <hr>
+            <h2>Technical Skills:</h2>
+            <h3>Languages:</h3>
+            <p>Java, Go, Python, C, C++, Haskell, JavaScript, TypeScript, HTML, CSS, SQL, Assembly(ARM, x86)</p>
+            <h3>Frameworks & Libraries:</h3>
+            <p>JUnit, Android, Angular, React, Bootstrap, Win32 API, LLVM</p>
+            <h3>Software & Tools:</h3>
+            <p>Linux, Git, Docker, JetBrains IDEs, Visual Studio Code, Android Studio, IDA, Ghidra</p>
         </div>
-        <div class="right">
-          <h2 class="description" style="padding-top: 20px;">
-            I am a third year computer science student studying at the University of Nottingham. I have a wide range of 
-            experience within computer science, but have the most experience in software development in C/C++, Java, and Python. I 
-            thrive in leadership roles, and am always happy to help others by sharing my knowledge. I am constantly on the 
-            lookout for opportunities to meet new people and learn new things
-          </h2>
-          <h2 class="description">
-              I enjoy going to hackathons and working on projects. Some things I've worked on are
-              <a href="https://github.com/DomBinks/image-from-images" target="_blank">Image from Images</a>
-              and <a href="https://github.com/A1ic3-g/recipify" target="_blank">Recipify</a>.
-              Additionally, I enjoy solving programming problems.
-              Here are some of my solutions to <a href="https://github.com/DomBinks/leetcode/" target="_blank">LeetCode</a> and <a href="https://github.com/DomBinks/kattis/" target="_blank">Kattis</a> problems.
-          </h2>
-          <div class="inner">
-            <div class="left-col">
-              <h2 class="top">Technical Skills</h2>
-                <h3 class="middle">Strongest</h3>
-                  <p class="bottom">C/C++</p>
-                  <p class="bottom">Java</p>
-                  <p class="bottom">Python</p>
-                  <br>
-                  <p class="bottom">Haskell</p>
-                  <p class="bottom">Git</p>
-                  <p class="bottom">Linux</p>
-                <h3 class="middle">Currently Improving</h3>
-                  <p class="bottom">JavaScript/TypeScript</p>
-                  <br>
-                  <p class="bottom">HTML</p>
-                  <p class="bottom">CSS</p>
-                <h3 class="middle">Basic knowledge</h3>
-                  <p class="bottom" style="padding-bottom: 20px;">ARM Assembly Language</p>
-              </div>
-        </div>
-      </div>
-    </div>
-  </body>
+    </body>
 </html>
